@@ -164,9 +164,30 @@ textarea {
 
 #socials {
     background-color:lightyellow;
+    text-align:center;
 }
-
 .fa {
     text-decoration:none;
     color:black;
+    font-size:30px;
+    padding:30px;
+}
+
+.fa-facebook {
+    color:white;
+    background-color:blue;
+}
+
+.fa-instagram {
+    color:white;
+    background-color:pink;
+}
+
+.fa-youtube-play {
+    color:white;
+    background-color:red;
+}
+
+#footer {
+    background-color:lightyellow;
 }
