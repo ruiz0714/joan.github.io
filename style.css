@@ -3,7 +3,7 @@ html {
 }
 
 .navbar {
-    background-color: #595959;
+    background-color: #011627;
     position: fixed;
     top: 0;
     width:100%;
@@ -23,7 +23,7 @@ html {
 }
 
 .navbar a:hover {
-    color:#595959;
+    color:#011627;
     background-color:white;
 }
 
@@ -41,7 +41,7 @@ hr {
 #home {
     width:100%;
     height:100%;
-    background-color:black;
+    background-color:#011627;
     color:white;
     text-align:center;
     font-size:1.5em;
@@ -50,8 +50,8 @@ hr {
 
 #about {
     width:100%;
-    background-color:lightblue;
-    color:red;
+    background-color:#D0CFEC;
+    color:#011627;
     padding:20px;
     box-sizing:border-box;
     
@@ -62,8 +62,13 @@ hr {
    font-size:2em;
 }
 
+#about img {
+    display:block;
+    margin:auto;
+}
+
 #about p {
-    text-align:left;
+    text-align:center;
 }
 
 #about hr {
@@ -71,8 +76,8 @@ hr {
 }
 
 #skills {
-    background-color:#7c6ae3;
-    color:#e3af6a;
+    background-color:#8A4FFF;
+    color:#011627;
     padding:20px;
     box-sizing:border-box;
 }
@@ -88,7 +93,7 @@ hr {
 
 
 #skills ul li {
-    
+    margin-left:40%;
 }
 
 #skills li {
@@ -98,8 +103,8 @@ hr {
 }
 
 #projects {
-    background-color:#4caf6d;
-    color:blue;
+    background-color:#FFF7AE;
+    color:#011627;
     padding:20px;
 }
 
@@ -116,11 +121,12 @@ hr {
     font-family:Verdana;
     font-size:18px;
     padding-bottom:10px;
+    margin-left:40%;
 }
 
 #contact {
-    background-color:lightgray;
-    color:red;
+    background-color:#C5EDAC;
+    color:#011627;
     padding:20px;
 }
 
@@ -150,11 +156,15 @@ input[type=submit] {
     border-radius:8px;
     font-weight:bold;
     text-align:center;
+    box-shadow: 0 7px 4px -3px black; 
+    cursor:pointer;
+
 }
 
 input[type=submit]:hover {
     background-color:black;
     color:white;
+    box-shadow:none;
 }
 textarea {
     border:2px solid black;
@@ -163,7 +173,7 @@ textarea {
 }
 
 #socials {
-    background-color:lightyellow;
+    background-color:#D0CFEC;
     text-align:center;
 }
 .fa {
@@ -173,21 +183,41 @@ textarea {
     padding:30px;
 }
 
+.fa:hover {
+    opacity:0.8;
+}
+
 .fa-facebook {
     color:white;
     background-color:blue;
+    border-radius:50px;
+    padding:30px 30px;
 }
 
 .fa-instagram {
     color:white;
-    background-color:pink;
+    background-color:#e1306c;
+    border-radius:50px;
 }
 
 .fa-youtube-play {
     color:white;
     background-color:red;
+    border-radius:50px;
 }
 
+
 #footer {
-    background-color:lightyellow;
+    background-color:#D0CFEC;
+    text-align:center;
+}
+
+#footer a {
+    text-decoration:underline;
+    color:#011627
+}
+
+#footer a:hover {
+    opacity:80%;
+    color:white;
 }
